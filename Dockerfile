@@ -1,4 +1,4 @@
-FROM debian:stable
+FROM blakedickie/debian:stable
 MAINTAINER Blake Dickie <bdickie@landora.net>
 
 RUN apt-get update && apt-get install -y mpd && rm -rf /var/lib/apt/lists/*
